@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Leap</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="gpt_questions">
+        <!--
+        1) In Android MainActivity, I want a WebView component left without any component.
+        In Kotlin please.
+
+        2) I want the WebView set with custom WebViewClient with constructor having a context as its parameter
+
+        3) Back button function is needed.
+
+        4) A warning showed up that read onBackPressed at 'super.onBackPressed()' was deprecated. How should the code be modified?
+
+        5) An error occurred that read "Can not extract resource from com.android.aaptcompiler.ParsedResource". Whats wrong?
+
+        6) When a button click event occurred, if the link url contains 'pdf', whether any pdf reader applications are already installed should be checked. What will be the solution?
+
+        7) Sorry, it's not the case of button click. It's a link.
+
+        8) In case that any pdf reader application are not installed, play store should show up with the search results of keyword 'pdf reader'.
+
+        9) When a link with url to pdf file is clicked, the pdf file should be downloaded first.
+        Important thing is the location of the downloaded file. It should be specified by the FileProvider.
+        And the download should be done at a directory specified by FileProvider. The download directory should be public that other application can access.
+        Finally a content uri should be retrieved from the downloaded file.
+        Can you do that in Kotlin?
+
+   --> </string>
+</resources>
